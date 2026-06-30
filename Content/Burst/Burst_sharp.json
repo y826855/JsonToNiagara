@@ -1,0 +1,2718 @@
+{
+  "exportVersion": "0.1",
+  "unit": {
+    "position": "UnityUnit",
+    "transformRotation": "Degrees",
+    "particleRotation": "Radians",
+    "time": "Seconds",
+    "color": "LinearFloat01"
+  },
+  "rootName": "Burst_sharp",
+  "rootAssetPath": "Assets/Lana Studio/Casual RPG VFX/Prefabs/Burst/Burst_sharp.prefab",
+  "exportedAt": "2026-06-30T01:03:58.4123565Z",
+  "particleSystemCount": 6,
+  "particleSystems": [
+    {
+      "name": "Burst_sharp",
+      "particleSystemName": "Burst_sharp",
+      "path": "Burst_sharp",
+      "isEmptyEmitter": true,
+      "enabledModules": [
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "None",
+        "blendMode": "Unknown",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startLifetime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.30000001192092896
+        },
+        "startSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.10000000149011612
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 4.5
+        },
+        "startSizeX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 4.5
+        },
+        "startSizeY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startSizeZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startRotationX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotationY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotationZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": false
+      },
+      "shape": {
+        "enabled": false
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": false
+      },
+      "sizeOverLifetime": {
+        "enabled": false
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": false
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Billboard",
+        "sortMode": "None",
+        "lengthScale": 3,
+        "velocityScale": 0,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "Local",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 0,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 0,
+        "materials": []
+      }
+    },
+    {
+      "name": "flash",
+      "particleSystemName": "flash",
+      "path": "Burst_sharp/flash",
+      "isEmptyEmitter": false,
+      "enabledModules": [
+        "emission",
+        "colorOverLifetime",
+        "sizeOverLifetime",
+        "textureSheetAnimation",
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "Burst",
+        "blendMode": "Additive",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [
+        {
+          "source": "textureSheetAnimation.sprite0",
+          "texture": {
+            "name": "flare01",
+            "type": "Texture2D",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/flare01.png",
+            "guid": "309b87d4c7ebd1b4695434ca00469b52"
+          }
+        }
+      ],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startLifetime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.20000000298023224
+        },
+        "startSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startSizeZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": -0.42551124095916748
+        },
+        "startRotationX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotationY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotationZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": -0.42551124095916748
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": true,
+        "rateOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "rateOverDistance": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "bursts": [
+          {
+            "time": 0,
+            "count": {
+              "mode": "Constant",
+              "curveMultiplier": 1,
+              "constant": 2
+            },
+            "cycleCount": 1,
+            "repeatInterval": 0.0099999997764825821,
+            "probability": 1
+          }
+        ]
+      },
+      "shape": {
+        "enabled": false
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": true,
+        "color": {
+          "mode": "Gradient",
+          "gradient": {
+            "mode": "Blend",
+            "colorKeys": [
+              {
+                "time": 0,
+                "color": {
+                  "r": 1,
+                  "g": 0.99219763278961182,
+                  "b": 0.71226418018341064,
+                  "a": 1
+                }
+              },
+              {
+                "time": 1,
+                "color": {
+                  "r": 1,
+                  "g": 0.99219763278961182,
+                  "b": 0.71226418018341064,
+                  "a": 1
+                }
+              }
+            ],
+            "alphaKeys": [
+              {
+                "time": 0,
+                "alpha": 1
+              },
+              {
+                "time": 0.7764706015586853,
+                "alpha": 1
+              },
+              {
+                "time": 0.99708551168441772,
+                "alpha": 0
+              }
+            ]
+          }
+        }
+      },
+      "sizeOverLifetime": {
+        "enabled": true,
+        "separateAxes": false,
+        "size": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0.16483485698699951,
+                "inTangent": 1.7293227910995483,
+                "outTangent": 1.7293227910995483,
+                "inWeight": 0,
+                "outWeight": 0.36190453171730042,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.46085739135742188,
+                "value": 1,
+                "inTangent": 0.045131664723157883,
+                "outTangent": 0.045131664723157883,
+                "inWeight": 0,
+                "outWeight": 0.24779489636421204,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.35897010564804077,
+                "inTangent": -1.8752678632736206,
+                "outTangent": -1.8752678632736206,
+                "inWeight": 0.0898551344871521,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "x": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0.16483485698699951,
+                "inTangent": 1.7293227910995483,
+                "outTangent": 1.7293227910995483,
+                "inWeight": 0,
+                "outWeight": 0.36190453171730042,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.46085739135742188,
+                "value": 1,
+                "inTangent": 0.045131664723157883,
+                "outTangent": 0.045131664723157883,
+                "inWeight": 0,
+                "outWeight": 0.24779489636421204,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.35897010564804077,
+                "inTangent": -1.8752678632736206,
+                "outTangent": -1.8752678632736206,
+                "inWeight": 0.0898551344871521,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "y": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "z": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        }
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": true,
+        "mode": "Sprites",
+        "numTilesX": 1,
+        "numTilesY": 1,
+        "animation": "WholeSheet",
+        "useRandomRow": true,
+        "rowIndex": 0,
+        "frameOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.99989998340606689
+        },
+        "startFrame": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "cycleCount": 1,
+        "uvChannelMask": "-1",
+        "rowMode": "Random",
+        "speedRange": {
+          "x": 0,
+          "y": 1
+        },
+        "sprites": [
+          {
+            "name": "flare01",
+            "type": "Sprite",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/flare01.png",
+            "guid": "309b87d4c7ebd1b4695434ca00469b52"
+          }
+        ]
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Billboard",
+        "sortMode": "None",
+        "lengthScale": 3,
+        "velocityScale": 0,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "View",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 2,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 1,
+        "materials": [
+          {
+            "name": "1Add_mat",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Materials/1Add_mat.mat",
+            "guid": "b3ed9e83085d95542b762dd15b306e7a",
+            "shader": "Mobile/Particles/Additive",
+            "mainTexture": null,
+            "textures": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "circle",
+      "particleSystemName": "circle",
+      "path": "Burst_sharp/circle",
+      "isEmptyEmitter": false,
+      "enabledModules": [
+        "emission",
+        "colorOverLifetime",
+        "sizeOverLifetime",
+        "textureSheetAnimation",
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "Burst",
+        "blendMode": "Additive",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [
+        {
+          "source": "textureSheetAnimation.sprite0",
+          "texture": {
+            "name": "ring02",
+            "type": "Texture2D",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/ring02.png",
+            "guid": "10d6f7d7600db8d418976f049cc4ac2a"
+          }
+        }
+      ],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.05000000074505806
+        },
+        "startLifetime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.30000001192092896
+        },
+        "startSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startSizeZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 5.93411922454834,
+          "rawConstantMax": 0,
+          "constantMin": 0,
+          "constantMax": 5.93411922454834,
+          "rangeOrder": "SwappedInSource"
+        },
+        "startRotationX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 5.93411922454834,
+          "rawConstantMax": 0,
+          "constantMin": 0,
+          "constantMax": 5.93411922454834,
+          "rangeOrder": "SwappedInSource"
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 0.96359103918075562,
+            "b": 0.57075470685958862,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": true,
+        "rateOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "rateOverDistance": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "bursts": [
+          {
+            "time": 0,
+            "count": {
+              "mode": "Constant",
+              "curveMultiplier": 1,
+              "constant": 1
+            },
+            "cycleCount": 1,
+            "repeatInterval": 0.0099999997764825821,
+            "probability": 1
+          }
+        ]
+      },
+      "shape": {
+        "enabled": false
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": true,
+        "color": {
+          "mode": "Gradient",
+          "gradient": {
+            "mode": "Blend",
+            "colorKeys": [
+              {
+                "time": 0,
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              },
+              {
+                "time": 1,
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "alphaKeys": [
+              {
+                "time": 0.7617608904838562,
+                "alpha": 1
+              },
+              {
+                "time": 1,
+                "alpha": 0
+              }
+            ]
+          }
+        }
+      },
+      "sizeOverLifetime": {
+        "enabled": true,
+        "separateAxes": false,
+        "size": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 2,
+                "outTangent": 2,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "x": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 2,
+                "outTangent": 2,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "y": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "z": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        }
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": true,
+        "mode": "Sprites",
+        "numTilesX": 1,
+        "numTilesY": 1,
+        "animation": "WholeSheet",
+        "useRandomRow": true,
+        "rowIndex": 0,
+        "frameOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.99989998340606689
+        },
+        "startFrame": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "cycleCount": 1,
+        "uvChannelMask": "-1",
+        "rowMode": "Random",
+        "speedRange": {
+          "x": 0,
+          "y": 1
+        },
+        "sprites": [
+          {
+            "name": "ring02",
+            "type": "Sprite",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/ring02.png",
+            "guid": "10d6f7d7600db8d418976f049cc4ac2a"
+          }
+        ]
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Billboard",
+        "sortMode": "None",
+        "lengthScale": 3,
+        "velocityScale": 0,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "View",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 2,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 1,
+        "materials": [
+          {
+            "name": "1Add_mat",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Materials/1Add_mat.mat",
+            "guid": "b3ed9e83085d95542b762dd15b306e7a",
+            "shader": "Mobile/Particles/Additive",
+            "mainTexture": null,
+            "textures": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "sparks",
+      "particleSystemName": "sparks",
+      "path": "Burst_sharp/sparks",
+      "isEmptyEmitter": false,
+      "enabledModules": [
+        "emission",
+        "shape",
+        "colorOverLifetime",
+        "sizeOverLifetime",
+        "textureSheetAnimation",
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "Burst",
+        "blendMode": "Additive",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [
+        {
+          "source": "textureSheetAnimation.sprite0",
+          "texture": {
+            "name": "spikes01",
+            "type": "Texture2D",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/spikes01.png",
+            "guid": "db45e88c7faf7ad45b77bf4f60de4f1a"
+          }
+        }
+      ],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.10000000149011612
+        },
+        "startLifetime": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.20000000298023224,
+          "rawConstantMax": 0.25,
+          "constantMin": 0.20000000298023224,
+          "constantMax": 0.25,
+          "rangeOrder": "Normal"
+        },
+        "startSpeed": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 7,
+          "rawConstantMax": 5,
+          "constantMin": 5,
+          "constantMax": 7,
+          "rangeOrder": "SwappedInSource"
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.699999988079071,
+          "rawConstantMax": 0.800000011920929,
+          "constantMin": 0.699999988079071,
+          "constantMax": 0.800000011920929,
+          "rangeOrder": "Normal"
+        },
+        "startSizeX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.699999988079071,
+          "rawConstantMax": 0.800000011920929,
+          "constantMin": 0.699999988079071,
+          "constantMax": 0.800000011920929,
+          "rangeOrder": "Normal"
+        },
+        "startSizeY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 1,
+          "rawConstantMax": 1,
+          "constantMin": 1,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startSizeZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 1,
+          "rawConstantMax": 1,
+          "constantMin": 1,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 6.2831850051879883,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "Normal"
+        },
+        "startRotationX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 6.2831850051879883,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "Normal"
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": true,
+        "rateOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "rateOverDistance": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "bursts": [
+          {
+            "time": 0,
+            "count": {
+              "mode": "Constant",
+              "curveMultiplier": 1,
+              "constant": 7
+            },
+            "cycleCount": 1,
+            "repeatInterval": 0.0099999997764825821,
+            "probability": 1
+          }
+        ]
+      },
+      "shape": {
+        "enabled": true,
+        "shapeType": "Sphere",
+        "angle": 25,
+        "radius": 0.30000001192092896,
+        "radiusThickness": 0,
+        "arc": 360,
+        "arcMode": "Random",
+        "arcSpread": 0,
+        "arcSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": -5.4000000953674316
+        },
+        "length": 5,
+        "boxThickness": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "alignToDirection": false,
+        "randomDirectionAmount": 0,
+        "sphericalDirectionAmount": 0,
+        "randomPositionAmount": 0,
+        "mesh": null,
+        "meshRenderer": null,
+        "skinnedMeshRenderer": null,
+        "sprite": null,
+        "spriteRenderer": null,
+        "texture": null,
+        "normalOffset": 0,
+        "meshShapeType": "Vertex",
+        "useMeshMaterialIndex": false,
+        "meshMaterialIndex": 0
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": true,
+        "color": {
+          "mode": "Gradient",
+          "gradient": {
+            "mode": "Blend",
+            "colorKeys": [
+              {
+                "time": 0.088242925703525543,
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              },
+              {
+                "time": 0.88824290037155151,
+                "color": {
+                  "r": 1,
+                  "g": 0.712064802646637,
+                  "b": 0.21226418018341064,
+                  "a": 1
+                }
+              }
+            ],
+            "alphaKeys": [
+              {
+                "time": 0,
+                "alpha": 0
+              },
+              {
+                "time": 0.11764705926179886,
+                "alpha": 1
+              },
+              {
+                "time": 0.68529790639877319,
+                "alpha": 1
+              },
+              {
+                "time": 1,
+                "alpha": 0
+              }
+            ]
+          }
+        }
+      },
+      "sizeOverLifetime": {
+        "enabled": true,
+        "separateAxes": false,
+        "size": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 3.6666665077209473,
+                "outTangent": 3.6666665077209473,
+                "inWeight": 0,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.27272728085517883,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.71924281120300293,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.57024729251861572,
+                "inTangent": -1.5306917428970337,
+                "outTangent": -1.5306917428970337,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "x": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 3.6666665077209473,
+                "outTangent": 3.6666665077209473,
+                "inWeight": 0,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.27272728085517883,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 0.71924281120300293,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.57024729251861572,
+                "inTangent": -1.5306917428970337,
+                "outTangent": -1.5306917428970337,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "y": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "z": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        }
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": true,
+        "mode": "Sprites",
+        "numTilesX": 1,
+        "numTilesY": 1,
+        "animation": "WholeSheet",
+        "useRandomRow": true,
+        "rowIndex": 0,
+        "frameOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.99989998340606689
+        },
+        "startFrame": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "cycleCount": 1,
+        "uvChannelMask": "-1",
+        "rowMode": "Random",
+        "speedRange": {
+          "x": 0,
+          "y": 1
+        },
+        "sprites": [
+          {
+            "name": "spikes01",
+            "type": "Sprite",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/spikes01.png",
+            "guid": "db45e88c7faf7ad45b77bf4f60de4f1a"
+          }
+        ]
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Stretch",
+        "sortMode": "None",
+        "lengthScale": 1,
+        "velocityScale": 0.20000000298023224,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "View",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0.92000001668930054,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 1,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 1,
+        "materials": [
+          {
+            "name": "1Add_mat",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Materials/1Add_mat.mat",
+            "guid": "b3ed9e83085d95542b762dd15b306e7a",
+            "shader": "Mobile/Particles/Additive",
+            "mainTexture": null,
+            "textures": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "particles",
+      "particleSystemName": "particles",
+      "path": "Burst_sharp/particles",
+      "isEmptyEmitter": false,
+      "enabledModules": [
+        "emission",
+        "shape",
+        "colorOverLifetime",
+        "sizeOverLifetime",
+        "textureSheetAnimation",
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "Burst",
+        "blendMode": "Additive",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [
+        {
+          "source": "textureSheetAnimation.sprite0",
+          "texture": {
+            "name": "circle_soft01",
+            "type": "Texture2D",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/circle_soft01.png",
+            "guid": "34e17c3f22737f543b52b01a97d4f33a"
+          }
+        }
+      ],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startLifetime": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.40000000596046448,
+          "rawConstantMax": 0.699999988079071,
+          "constantMin": 0.40000000596046448,
+          "constantMax": 0.699999988079071,
+          "rangeOrder": "Normal"
+        },
+        "startSpeed": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 7,
+          "rawConstantMax": 12,
+          "constantMin": 7,
+          "constantMax": 12,
+          "rangeOrder": "Normal"
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.20000000298023224,
+          "rawConstantMax": 0.10000000149011612,
+          "constantMin": 0.10000000149011612,
+          "constantMax": 0.20000000298023224,
+          "rangeOrder": "SwappedInSource"
+        },
+        "startSizeX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0.20000000298023224,
+          "rawConstantMax": 0.10000000149011612,
+          "constantMin": 0.10000000149011612,
+          "constantMax": 0.20000000298023224,
+          "rangeOrder": "SwappedInSource"
+        },
+        "startSizeY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 1,
+          "rawConstantMax": 1,
+          "constantMin": 1,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startSizeZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 1,
+          "rawConstantMax": 1,
+          "constantMin": 1,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 6.2831850051879883,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "Normal"
+        },
+        "startRotationX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 6.2831850051879883,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "Normal"
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": true,
+        "rateOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "rateOverDistance": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "bursts": [
+          {
+            "time": 0,
+            "count": {
+              "mode": "Constant",
+              "curveMultiplier": 1,
+              "constant": 10
+            },
+            "cycleCount": 1,
+            "repeatInterval": 0.0099999997764825821,
+            "probability": 1
+          }
+        ]
+      },
+      "shape": {
+        "enabled": true,
+        "shapeType": "Sphere",
+        "angle": 25,
+        "radius": 0.10999999940395355,
+        "radiusThickness": 0.11999999731779099,
+        "arc": 360,
+        "arcMode": "Random",
+        "arcSpread": 0,
+        "arcSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": -5.4000000953674316
+        },
+        "length": 5,
+        "boxThickness": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "alignToDirection": false,
+        "randomDirectionAmount": 0,
+        "sphericalDirectionAmount": 0,
+        "randomPositionAmount": 0,
+        "mesh": null,
+        "meshRenderer": null,
+        "skinnedMeshRenderer": null,
+        "sprite": null,
+        "spriteRenderer": null,
+        "texture": null,
+        "normalOffset": 0,
+        "meshShapeType": "Vertex",
+        "useMeshMaterialIndex": false,
+        "meshMaterialIndex": 0
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": true,
+        "color": {
+          "mode": "Gradient",
+          "gradient": {
+            "mode": "Blend",
+            "colorKeys": [
+              {
+                "time": 0.088242925703525543,
+                "color": {
+                  "r": 1,
+                  "g": 0.9676440954208374,
+                  "b": 0.48584908246994019,
+                  "a": 1
+                }
+              },
+              {
+                "time": 0.80294501781463623,
+                "color": {
+                  "r": 1,
+                  "g": 0.571276068687439,
+                  "b": 0.20283019542694092,
+                  "a": 1
+                }
+              }
+            ],
+            "alphaKeys": [
+              {
+                "time": 0,
+                "alpha": 0
+              },
+              {
+                "time": 0.11764705926179886,
+                "alpha": 1
+              },
+              {
+                "time": 0.77941560745239258,
+                "alpha": 1
+              },
+              {
+                "time": 1,
+                "alpha": 0
+              }
+            ]
+          }
+        }
+      },
+      "sizeOverLifetime": {
+        "enabled": true,
+        "separateAxes": false,
+        "size": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0.38841903209686279,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.0774850994348526,
+                "inTangent": -2.6773576736450195,
+                "outTangent": -2.6773576736450195,
+                "inWeight": 0.11374666541814804,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "x": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0.38841903209686279,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 0.0774850994348526,
+                "inTangent": -2.6773576736450195,
+                "outTangent": -2.6773576736450195,
+                "inWeight": 0.11374666541814804,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "y": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "z": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        }
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": true,
+        "mode": "Sprites",
+        "numTilesX": 1,
+        "numTilesY": 1,
+        "animation": "WholeSheet",
+        "useRandomRow": true,
+        "rowIndex": 0,
+        "frameOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.99989998340606689
+        },
+        "startFrame": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "cycleCount": 1,
+        "uvChannelMask": "-1",
+        "rowMode": "Random",
+        "speedRange": {
+          "x": 0,
+          "y": 1
+        },
+        "sprites": [
+          {
+            "name": "circle_soft01",
+            "type": "Sprite",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/circle_soft01.png",
+            "guid": "34e17c3f22737f543b52b01a97d4f33a"
+          }
+        ]
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Stretch",
+        "sortMode": "None",
+        "lengthScale": 1,
+        "velocityScale": 0.15000000596046448,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "View",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0.31000000238418579,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 0,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 1,
+        "materials": [
+          {
+            "name": "1Add_mat",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Materials/1Add_mat.mat",
+            "guid": "b3ed9e83085d95542b762dd15b306e7a",
+            "shader": "Mobile/Particles/Additive",
+            "mainTexture": null,
+            "textures": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "shadow",
+      "particleSystemName": "shadow",
+      "path": "Burst_sharp/shadow",
+      "isEmptyEmitter": false,
+      "enabledModules": [
+        "emission",
+        "colorOverLifetime",
+        "sizeOverLifetime",
+        "textureSheetAnimation",
+        "renderer"
+      ],
+      "niagaraHint": {
+        "emitterType": "Sprite",
+        "spawn": "Burst",
+        "blendMode": "AlphaBlend",
+        "simulationSpace": "Local",
+        "loop": false,
+        "duration": 1.5
+      },
+      "textureReferences": [
+        {
+          "source": "textureSheetAnimation.sprite0",
+          "texture": {
+            "name": "cloud01",
+            "type": "Texture2D",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/cloud01.png",
+            "guid": "6fa3d521d5c0264479854aee6eeda897"
+          }
+        }
+      ],
+      "transform": {
+        "localPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "localScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "worldPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "worldRotationEuler": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "state": {
+        "isPlaying": false,
+        "isPaused": false,
+        "isEmitting": false,
+        "isStopped": true,
+        "particleCount": 0,
+        "time": 0
+      },
+      "main": {
+        "duration": 1.5,
+        "loop": false,
+        "prewarm": false,
+        "startDelay": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.15000000596046448
+        },
+        "startLifetime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.60000002384185791
+        },
+        "startSpeed": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "startSize3D": false,
+        "startSize": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeX": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 3.5
+        },
+        "startSizeY": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startSizeZ": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 1
+        },
+        "startRotation3D": false,
+        "startRotationUnit": "Radians",
+        "startRotation": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 6.2831850051879883,
+          "rawConstantMax": 0,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "SwappedInSource"
+        },
+        "startRotationX": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationY": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 0,
+          "rawConstantMax": 1,
+          "constantMin": 0,
+          "constantMax": 1,
+          "rangeOrder": "Normal"
+        },
+        "startRotationZ": {
+          "mode": "TwoConstants",
+          "curveMultiplier": 1,
+          "rawConstantMin": 6.2831850051879883,
+          "rawConstantMax": 0,
+          "constantMin": 0,
+          "constantMax": 6.2831850051879883,
+          "rangeOrder": "SwappedInSource"
+        },
+        "flipRotation": 0,
+        "startColor": {
+          "mode": "Color",
+          "color": {
+            "r": 1,
+            "g": 0.88317722082138062,
+            "b": 0.5896226167678833,
+            "a": 1
+          }
+        },
+        "gravityModifier": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "simulationSpace": "Local",
+        "customSimulationSpace": null,
+        "simulationSpeed": 1,
+        "useUnscaledTime": false,
+        "scalingMode": "Hierarchy",
+        "playOnAwake": true,
+        "emitterVelocityMode": "Transform",
+        "maxParticles": 1000,
+        "stopAction": "None",
+        "cullingMode": "Automatic",
+        "ringBufferMode": "Disabled"
+      },
+      "emission": {
+        "enabled": true,
+        "rateOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "rateOverDistance": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "bursts": [
+          {
+            "time": 0,
+            "count": {
+              "mode": "Constant",
+              "curveMultiplier": 1,
+              "constant": 1
+            },
+            "cycleCount": 1,
+            "repeatInterval": 0.0099999997764825821,
+            "probability": 1
+          }
+        ]
+      },
+      "shape": {
+        "enabled": false
+      },
+      "velocityOverLifetime": {
+        "enabled": false
+      },
+      "forceOverLifetime": {
+        "enabled": false
+      },
+      "colorOverLifetime": {
+        "enabled": true,
+        "color": {
+          "mode": "Gradient",
+          "gradient": {
+            "mode": "Blend",
+            "colorKeys": [
+              {
+                "time": 0,
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              },
+              {
+                "time": 1,
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "alphaKeys": [
+              {
+                "time": 0,
+                "alpha": 0
+              },
+              {
+                "time": 0.22352941334247589,
+                "alpha": 1
+              },
+              {
+                "time": 0.27647823095321655,
+                "alpha": 1
+              },
+              {
+                "time": 0.72059202194213867,
+                "alpha": 0.16862745583057404
+              },
+              {
+                "time": 1,
+                "alpha": 0
+              }
+            ]
+          }
+        }
+      },
+      "sizeOverLifetime": {
+        "enabled": true,
+        "separateAxes": false,
+        "size": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0.63926082849502563,
+                "inTangent": 0.79743224382400513,
+                "outTangent": 0.79743224382400513,
+                "inWeight": 0,
+                "outWeight": 0.10989010334014893,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "x": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0.63926082849502563,
+                "inTangent": 0.79743224382400513,
+                "outTangent": 0.79743224382400513,
+                "inWeight": 0,
+                "outWeight": 0.10989010334014893,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 0,
+                "outTangent": 0,
+                "inWeight": 0,
+                "outWeight": 0,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "y": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        },
+        "z": {
+          "mode": "Curve",
+          "curveMultiplier": 1,
+          "curve": {
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever",
+            "keys": [
+              {
+                "time": 0,
+                "value": 0,
+                "inTangent": 0,
+                "outTangent": 1,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              },
+              {
+                "time": 1,
+                "value": 1,
+                "inTangent": 1,
+                "outTangent": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408,
+                "weightedMode": "None"
+              }
+            ]
+          }
+        }
+      },
+      "rotationOverLifetime": {
+        "enabled": false
+      },
+      "noise": {
+        "enabled": false
+      },
+      "textureSheetAnimation": {
+        "enabled": true,
+        "mode": "Sprites",
+        "numTilesX": 1,
+        "numTilesY": 1,
+        "animation": "WholeSheet",
+        "useRandomRow": true,
+        "rowIndex": 0,
+        "frameOverTime": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0.99989998340606689
+        },
+        "startFrame": {
+          "mode": "Constant",
+          "curveMultiplier": 1,
+          "constant": 0
+        },
+        "cycleCount": 1,
+        "uvChannelMask": "-1",
+        "rowMode": "Random",
+        "speedRange": {
+          "x": 0,
+          "y": 1
+        },
+        "sprites": [
+          {
+            "name": "cloud01",
+            "type": "Sprite",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Textures/cloud01.png",
+            "guid": "6fa3d521d5c0264479854aee6eeda897"
+          }
+        ]
+      },
+      "trails": {
+        "enabled": false
+      },
+      "collision": {
+        "enabled": false
+      },
+      "renderer": {
+        "renderMode": "Billboard",
+        "sortMode": "None",
+        "lengthScale": 3,
+        "velocityScale": 0,
+        "cameraVelocityScale": 0,
+        "normalDirection": 1,
+        "sortingFudge": 0,
+        "minParticleSize": 0,
+        "maxParticleSize": 1000,
+        "alignment": "View",
+        "flip": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "allowRoll": true,
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "maskInteraction": "None",
+        "shadowCastingMode": "Off",
+        "receiveShadows": true,
+        "shadowBias": 0,
+        "motionVectorGenerationMode": "Object",
+        "sortingLayerID": 0,
+        "sortingLayerName": "Default",
+        "sortingOrder": 0,
+        "lightProbeUsage": "Off",
+        "reflectionProbeUsage": "Off",
+        "probeAnchor": null,
+        "mesh": null,
+        "trailMaterial": null,
+        "materialCount": 1,
+        "materials": [
+          {
+            "name": "1AB_mat",
+            "assetPath": "Assets/Lana Studio/Casual RPG VFX/Materials/1AB_mat.mat",
+            "guid": "f7d420caf00b4e74c88b3682321312dd",
+            "shader": "Mobile/Particles/Alpha Blended",
+            "mainTexture": null,
+            "textures": []
+          }
+        ]
+      }
+    }
+  ]
+}
